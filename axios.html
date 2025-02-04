@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App axios method</title>
+    <link rel="stylesheet" href="./assets/css/axios.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; color: white;">Weather Forecast</h1>
+        <div class="title">
+        </div>
+        <div class="input">
+            <input type="text" id="location-input" placeholder="Enter your city">
+            <input type="button"  value="Search" id="btn">
+        </div>
+        <div class="info">
+            <img id="weather-icon" src="https://i.pinimg.com/474x/d9/f2/aa/d9f2aa17a6f2e037a61933fdf7ee7576.jpg" alt="" />
+            <div class="temp"> <span id="temp-value"></span><span id="unit"></span><span id="c"></span> </div>
+            <div id="Weatherdesc"></div>
+            <div id="location"></div>
+            <div id="pressure"></div>
+            <div id="wind-speed"></div>
+            <div id="humidity"></div>
+        </div>
+        
+    </div>
+    <script src="./assets/js/axios.js"></script>
+</body>
+</html>
